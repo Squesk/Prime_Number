@@ -16,7 +16,7 @@ public class Main {
         {
             return false;
         }
-        for(int i=2; i<number; i++)
+        for(int i=2; i*i<=number; i++)
         {
             if(number%i == 0)
             {
